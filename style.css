@@ -46,7 +46,10 @@ li {
 u{
     text-decoration-line: none;
 }
-
+.icons{
+    width: 60px;
+    height: auto;
+}
 
 .show{
     display: block !important;
