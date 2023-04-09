@@ -32,9 +32,9 @@ li {
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     body {
-        font-size: xx-large;
+        font-size: xx-large !important;
     }
 }
 .background {

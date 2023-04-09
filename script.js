@@ -29,7 +29,8 @@ function HideAnother(value, key, map){
 }
 
 window.onload = function () {
-    Particles.init({
+    Particles.init(
+        {
         selector: ".background"
     });
 };
