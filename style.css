@@ -31,6 +31,12 @@ li {
     padding-inline: 30px;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 800px){
+    body {
+        font-size: xx-large;
+    }
+}
 .background {
     position: absolute;
     height: 90vh;
@@ -93,7 +99,7 @@ u{
     animation: dash 5s linear alternate infinite;
 }
 .tree{
-    margin-left: 20%;
+    margin: 0 10% 0 20%;
 }
 .tree ul {
     padding-top: 20px; position: relative;
