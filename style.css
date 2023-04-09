@@ -34,7 +34,11 @@ li {
 
 @media screen and (max-width: 1000px){
     body {
-        font-size: xx-large !important;
+        font-size: x-large !important;
+    }
+    .mobile .tree{
+        margin: 0 30% 0 30%;
+        font-size: xxx-large;
     }
 }
 .background {
