@@ -1,12 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
-
 @font-face {
-    font-family: 'Source Code Pro', monospace;
-    /*font-family: "Code";*/
-    /*src: url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');*/
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Source Code Pro';
+    src: url('./SourceCodePro-Regular.ttf') format('truetype');
 }
 
 *{
@@ -17,11 +11,10 @@ a{
     text-decoration-line: none;
 }
 body{
+    font-family: 'Source Code Pro', monospace;
     color: aliceblue;
     background-color: black;
     text-align: center;
-    font-family: "Code", serif ;
-
 }
 header{
     padding: 5%;
@@ -44,7 +37,7 @@ li {
         font-size: xxx-large;
     }
     .tree li a{
-        font-size: x-large !important;
+        font-size: xx-large !important;
     }
 
 }
