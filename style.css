@@ -66,6 +66,10 @@ li {
 u{
     text-decoration-line: none;
 }
+
+.link-cont{
+    color: aliceblue;
+}
 .icons{
     width: 60px;
     height: auto;
